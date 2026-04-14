@@ -3,9 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Html tutorial</title>
+
+    <style>
+
+        .container{
+            text-align: center;
+        }
+
+        .Heading{
+            color: red;
+        }
+
+        #box{
+            text-align: center;
+            background-color: blue;
+        }
+
+        button{
+            text-align: center;
+            background-color:blue;
+        }
+
+        a{
+            background-color: yellow;
+            color:black
+        }
+
+    </style>
+
 </head>
 <body>
-    <h1> Heading 1</h1>
+    <h1 class="Heading">This is H1 Heading 1</h1>
+    <h2 class="Heading">This is H2 Heading 2</h2>
+    <h3 class="Heading">This is H3 Heading 3</h3>
+
+
+    <h3 style="text-align:center;
+    background-color: rgba(28, 186, 41,.5);">This text needs some styling</h3>
+    
+    <div id="box">
+        Hey the question said me to create a simple div with id "BOX"
+    </div>
+    <div class="container">
+    <button >INTERNAL STYLE</button>
+    </div><br><br>
+
+    <div style="text-align: center;">
+    <button>INLINE STYLE</button>
+    </div>
+
+    <a href="https://google.com" target="_main">Google</a>
+
+    <img src="https://images.pexels.com/photos/5043339/pexels-photo-5043339.jpeg" alt="mountain" width="100px" > 
+
+    <!-- <img src="./pexels-zandatsu-14908952.jpg" alt="car"> -->
+
+    <picture>
+        <source media="(min-width: 65px)" srcset="./challennger_car.jpg" width="100px" />
+        <source media="(min-width: 450px)" srcset="./night.jpg" />
+        <img src="./night.jpg" alt="">
+    </picture>
+
+    
+
 </body>
 </html>
